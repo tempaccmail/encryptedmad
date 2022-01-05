@@ -1,0 +1,9 @@
+RectF rect = new RectF(320, 700, 260, 500);
+canvas.drawOval(new RectF(rect),paint);
+RectF rect2=new RectF(380,700,300,500);
+canvas.drawOval(new RectF(rect2),paint);
+
+Paint line_paint=new Paint();
+line_paint.setColor(getResources().getColor(R.color.colorPrimaryDark));
+line_paint.setStrokeWidth(2);
+canvas.drawLine(314,400,314,560,line_paint);
